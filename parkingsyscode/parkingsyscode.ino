@@ -45,28 +45,27 @@ int availableSlots = TOTAL_CAPACITY;
 // =====================================================
 // REGISTERED VEHICLES
 // =====================================================
-String vehicleUID[] =
-{
+String vehicleUID[] = {
   "9A ED 8A 3F",
   "03 BC 1C DA",
-  "01 02 03 04",
-  "11 22 33 44"
+  "AA BB CC DD",
+  "11 22 33 44",
+  "08 12 55 91",
+  "08 6B 80 4A"
 };
-String vehicleNumber[] =
-{
+
+String vehicleNumber[] = {
   "MH01AB1234",
   "MH01CD5678",
   "MH01EF9012",
-  "MH01GH3456"
+  "MH01GH3456",
+  "MH01IJ7890",
+  "MH01KL1234"
 };
-bool vehicleInside[] =
-{
-  false,
-  false,
-  false,
-  false
-};
-const int TOTAL_VEHICLES = 4;
+
+bool vehicleInside[6] = {false, false, false, false, false, false};
+
+const int TOTAL_VEHICLES = 6;
 // =====================================================
 // GET RFID UID
 // =====================================================
